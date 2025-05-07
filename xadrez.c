@@ -2,6 +2,27 @@
 
 //Movimentaçao de peças de xadrez
 
+// Definindo funções recursivas
+
+void movimentoTorre(n){
+    if (n < 5);
+    printf("Direita\n");
+    movimentoTorre(n-1);
+}
+
+void movimentoBispo(n){
+    if (n < 5);
+    printf("Cima, Direita\n");
+    movimentoBispo(n -1);
+    
+}
+
+void movimentoRainha(n){
+    if (n < 8);
+    printf("Esquerda\n");
+    movimentoRainha(n-1);
+}
+
 // Torre
 
 int main (){
